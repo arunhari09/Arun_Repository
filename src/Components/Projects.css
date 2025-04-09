@@ -1,0 +1,88 @@
+/* Root wrapper */
+.projects-page {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; /* For fixed header */
+}
+
+/* Section */
+#myworks {
+  padding: 40px 20px;
+  flex: 1;
+}
+
+/* Heading */
+#myworks h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #2563eb; /* Tailwind's blue-600 */
+}
+
+/* Project card */
+.project-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+/* Image */
+
+
+/* Card content */
+.project-content {
+  padding: 24px;
+}
+
+.project-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  color: #4b5563; /* Tailwind's gray-600 */
+  margin-bottom: 16px;
+}
+
+.project-tech {
+  font-size: 0.9rem;
+  color: #6b7280; /* Tailwind's gray-500 */
+}
+
+/* Links */
+.project-links {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+.project-links a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+.projects-page #myworks img {
+  max-height: 200px ;
+  width: 15% ;
+  /*object-fit: cover !important;
+  border-radius: 0.75rem;*/
+}
+
+
+

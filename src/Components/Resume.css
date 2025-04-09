@@ -1,0 +1,65 @@
+/* Container for the entire resume page */
+.resume-page {
+  background-color: #f9fafb;
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section styling */
+.resume-section {
+  padding-top: 120px; /* for fixed header space */
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+.resume-section.dark {
+  background-color: #111827; /* Tailwind's gray-900 */
+  color: #d1d5db; /* Tailwind's gray-300 */
+}
+
+/* Resume heading */
+.resume-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2563eb; /* Tailwind's blue-600 */
+  margin-bottom: 2rem;
+}
+
+/* Resume iframe viewer */
+.resume-viewer {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 600px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.resume-viewer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Download button */
+.resume-download {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-download:hover {
+  background-color: #1e40af;
+}
